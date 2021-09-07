@@ -1,0 +1,84 @@
+div, p, input, button, form, span, a, ul,li{
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.8em;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+h1 h2 h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+}
+
+.block{
+    width: 500px;
+    height: 500px;
+    border-width: 3px;
+    border: dotted;
+    border-color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 200px;
+    border-width: 3px;
+    border: dotted;
+    border-color: black;
+}
+
+.title{
+    text-align: center;
+    width: 300px;
+    height: 173px;
+    padding: 40px;
+}
+
+span {
+    font-size: 72px;
+}
+
+.low{
+    width: 500px;
+    height: 300px;
+}
+
+.low h1{
+    text-align: center; 
+
+}
+
+.about_me{
+    width: 500px;
+    height: 200px;
+    padding-left: 15px;
+}
+
+.skills{
+    width: 500px;
+    height: 250px;
+}
+
+.skills h1{
+    text-align: center;
+}
