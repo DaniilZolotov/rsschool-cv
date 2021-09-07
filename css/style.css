@@ -79,6 +79,7 @@ span {
     height: 250px;
 }
 
-.skills h1{
+.skills h1, .skills p{
     text-align: center;
 }
+
