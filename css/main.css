@@ -57,3 +57,18 @@ header .container{
 span {
     font-size: 72px;
 }
+
+.low{
+    width: 500px;
+    height: 300px;
+}
+
+.low h1{
+    text-align: center; 
+
+}
+
+.about_me{
+    width: 500px;
+    height: 200px;
+}

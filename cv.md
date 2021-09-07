@@ -9,7 +9,7 @@
 # 3. About me. 
     My name you already know. Now i'm studing in Moscow Instrument-making College for the specialty of network and system
      administrator, but web-disign - it's my true passion. 
-    **My slogan:**
+    My slogan:
     > Veni vidi vici
 
 # 4. Skills.
