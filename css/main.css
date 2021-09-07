@@ -71,4 +71,14 @@ span {
 .about_me{
     width: 500px;
     height: 200px;
+    padding-left: 15px;
+}
+
+.skills{
+    width: 500px;
+    height: 250px;
+}
+
+.skills h1{
+    text-align: center;
 }
