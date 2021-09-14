@@ -14,6 +14,9 @@ body {
     overflow-x: hidden;
 }
 
+i {
+    color:red;
+}
 
 h1 h2 h3 {
     font-family: 'Ubuntu', sans-serif;
@@ -26,6 +29,7 @@ h1 h2 h3 {
 }
 
 header .container{
+    padding-top: 5px;
     display: flex;
 }
 
@@ -33,8 +37,7 @@ header .container{
     width: 500px;
     height: 500px;
     border-width: 3px;
-    border: dotted;
-    border-color: black;
+    outline: 1px solid blue;
 }
 
 .top{
@@ -43,8 +46,7 @@ header .container{
     width: 500px;
     height: 200px;
     border-width: 3px;
-    border: dotted;
-    border-color: black;
+    outline: 1px solid blue;
 }
 
 .title{
@@ -79,6 +81,103 @@ span {
     height: 250px;
 }
 
-.skills h1{
+.skills h1, .skills p{
     text-align: center;
+}
+
+.exmpl{
+    width: 1000px;
+    height: 300px;
+    outline: 1px solid blue;
+    margin-bottom: 100px;
+}
+
+.txt{
+    height: 50px;
+    width: 1000px;
+    outline: 1px solid blue;
+    text-align: center; 
+    font-size: 30px;
+}
+
+.code{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mcro_blc{
+    width: 725px;
+    height: 200px;
+    outline: 1px solid blue;
+}
+
+.mcro_blc p{
+    font-size: 13px;
+    padding: 10px ;
+}
+
+.srss{
+    height: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.git{
+    width: 333px;
+    height: 50px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.git img{
+    width: 30px;
+    height: 30px;
+}
+
+.year{
+    width: 333px;
+    height: 50px;
+    text-align: center;}
+
+.year img{
+    width: 50px;
+    height:30px;
+    padding-top: 13px;
+}
+
+
+.rs{
+    width: 333px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.rs img{
+    width: 40px;
+    height: 30px;
+
+}
+/*Colors*/
+
+.container #right{
+    background-color: yellow;
+}
+
+.txt{
+    background-color: red;
+}
+
+.code{
+    background-color: yellow;
+}
+
+.code #right_blc{
+    background-color: white;
+}
+
+.srss{
+    background-color: red;
 }
