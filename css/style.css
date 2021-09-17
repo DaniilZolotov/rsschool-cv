@@ -174,10 +174,141 @@ span {
     background-color: yellow;
 }
 
-.code #right_blc{
+.code #left_blc{
     background-color: white;
 }
 
 .srss{
     background-color: red;
+}
+
+
+/*Adaptive*/
+
+
+
+
+@media screen and (max-width: 1200px){
+
+}
+
+
+@media screen and (max-width: 992px){
+
+
+    .container{
+        width: 600px;
+        margin: auto 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .block{
+        width: 600px;
+    }
+
+    .top{
+        width: 600px;
+        justify-content: space-evenly;
+    }
+    .low{
+        margin: auto;
+    }
+    
+    .about_me{
+        margin: auto;
+    }
+
+    .skills{
+        margin: auto;
+    }
+
+    header .container{
+        display: block;
+    }
+
+    .container{
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .exmpl{
+        width: 600px;
+        height: 314px;  
+        margin-bottom: 0px;
+    }
+    .txt{
+        width: 600px;
+    }
+
+    .mcro_blc{
+        width: 600px;
+    }
+
+    .code{
+        width: 600px;
+        display: block;
+    }
+
+    .srss{
+        width: 600px;
+    }
+
+    #rigth_blc{
+        display: none;
+    }
+}
+
+#upCase{
+    padding-bottom: 43px;
+}
+
+@media screen and (max-width: 576px){
+
+    .block{
+        width: 500px;
+    }
+
+    .top{
+        width: 500px;;
+    }
+
+    header .container{
+        display: block;
+    }
+
+    .container{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .exmpl{
+        width: 500px;
+        height: 314px;  
+        margin-bottom: 0px;
+    }
+    .txt{
+        width: 500px;
+    }
+
+    .mcro_blc{
+        width: 500px;
+    }
+
+    .code{
+        width: 500px;
+        display: block;
+    }
+
+    .srss{
+        width: 500px;
+    }
+
+    #rigth_blc{
+        display: none;
+    }
 }
