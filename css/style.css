@@ -263,6 +263,10 @@ span {
     }
 }
 
+#upCase{
+    padding-bottom: 43px;
+}
+
 @media screen and (max-width: 576px){
 
     .block{
