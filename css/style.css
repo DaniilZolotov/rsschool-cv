@@ -2,6 +2,7 @@ div, p, input, button, form, span, a, ul,li{
     box-sizing: border-box;
 }
 
+
 p {
     line-height: 1.8em;
 
@@ -108,6 +109,9 @@ span {
     
 }
 
+.code span {
+    font-size: 11px;
+}
 .mcro_blc{
     width: 725px;
     height: 200px;
@@ -312,3 +316,4 @@ span {
         display: none;
     }
 }
+
